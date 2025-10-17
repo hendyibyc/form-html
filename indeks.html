@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata</title>
+</head>
+<body>
+    <h1 align="center">Form Biodata Hendy Pratama</h1> 
+   <form action="#" method="post">
+ <table align="center">
+  <tr>
+    <td>Tempat Lahir</td>
+    <td><input type="text" name="tempat_Lahir" required></td>
+  </tr>
+
+  <tr>
+    <td>Tanggal Lahir</td>
+    <td><input type="date" name="tanggal_Lahir" required></td>
+  </tr>
+
+  <tr>
+    <td>Jenis Kelamin</td>
+    <td><input type="radio" name="jenis_kelamin" value="laki-laki" required>laki-laki <input type="radio" name="jenis_kelamin" value="perempuan" required>perempuan<td/>
+  </tr>
+
+  <tr>
+    <td>Agama</td>
+    <td>
+      <select name="agama" required>
+        <option>Islam</option>
+          <option>Kristen</option>
+            <option>Katolik</option>
+              <option>Hindu</option>
+                <option>Budha</option>
+                <option>Konghucu</option>
+      </select>
+    </td>
+  </tr>
+
+  <tr>
+    <td>Bahasa yang dikuasai</td>
+    <td>
+      <input type="checkbox" name="bahasa" value="Indonesia">Indonesia
+       <input type="checkbox" name="bahasa" value="Inggris">Inggris
+        <input type="checkbox" name="bahasa" value="Arab">Arab
+       <input type="checkbox" name="bahasa" value="Mandarin">Mandarin
+    </td>
+  </tr>
+
+  <tr>
+    <td>Alamat</td>
+    <td><textarea name="Alamat" required></textarea></td>
+  </tr>
+
+  <tr>
+    <td>Foto Muka 3x4</td>
+    <td><input type="file" name="Foto" accept="image/*"></td>
+  </tr>
+ 
+ <tr>
+  <td>No. Hp </td>
+  <td><input type="tel" name="hp" pattern="\nd{9, 15}" placeholder="xxxxxxxxxxxx" required></td>
+ </tr>
+
+ <tr>
+  <td>Email</td>
+  <td><input type="email" name="email" placeholder="example@gmail.com"></td>
+ </tr>
+
+
+<tr>
+  <td colspan="2" align="center">
+<input type="submit" value="Login">
+    <input type="reset" value="Reset">
+  </td>
+</tr>
+
+ </table>
+   </form>
+
+
+</body>
+</html>
